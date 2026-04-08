@@ -35,7 +35,7 @@ Paste this into OpenCode and it will handle everything:
 Set up TradingView MCP for me — it's self-contained with no global installs.
 Clone https://github.com/LewisWJackson/tradingview-mcp.git to ~/tradingview-mcp, run npm install.
 The project already has opencode.json with MCP config — OpenCode will auto-discover it.
-Copy rules.example.json to rules.json so I can fill in my trading rules.
+Copy rules/rules.example.json to rules/rules.json so I can fill in my trading rules.
 Verify with tv_health_check.
 ```
 
@@ -79,10 +79,10 @@ npm install
 ### 2. Set up your rules
 
 ```bash
-cp rules.example.json rules.json
+cp rules/rules.example.json rules/rules.json
 ```
 
-Open `rules.json` and fill in:
+Open `rules/rules.json` and fill in:
 - Your **watchlist** (symbols to scan each morning)
 - Your **bias criteria** (what makes something bullish/bearish/neutral for you)
 - Your **risk rules** (the rules you want OpenCode to check before every session)
