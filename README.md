@@ -1,4 +1,4 @@
-# TradingView MCP Jackson
+# TradingView MCP
 
 If you found this from the YouTube video — welcome. This is the improved fork. Everything you need is below.
 
@@ -33,7 +33,7 @@ Paste this into OpenCode and it will handle everything:
 
 ```
 Set up TradingView MCP for me — it's self-contained with no global installs.
-Clone https://github.com/LewisWJackson/tradingview-mcp.git to ~/tradingview-mcp, run npm install.
+Clone https://github.com/perplexedpigmy/tradingview-mcp.git to ~/tradingview-mcp, run npm install.
 The project already has opencode.json with MCP config — OpenCode will auto-discover it.
 Copy rules/rules.example.json to rules/rules.json so I can fill in my trading rules.
 Verify with tv_health_check.
@@ -71,7 +71,7 @@ Nothing gets written to `~/.config/opencode/` or anywhere else on your system. C
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/LewisWJackson/tradingview-mcp.git ~/tradingview-mcp
+git clone https://github.com/perplexedpigmy/tradingview-mcp.git ~/tradingview-mcp
 cd ~/tradingview-mcp
 npm install
 ```
